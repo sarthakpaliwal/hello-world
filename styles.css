@@ -1,17 +1,150 @@
-* {
-  margin:0px;
-  padding:0px;
+ body{
+  
+  margin: 0px;
+  padding: 0px;
+  background-color:  #404040;
+ }
+
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.nav li {
+  float: left;
+  border-right: 1px solid  #404040;
 }
 
-p {
+.nav li a {
   display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #29a329;
+}
+.box{
+  width: 450px;
+  background: rgba(51, 204, 51,0.8);
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 3%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align:center;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.bck1{
+  background:url(img/1.jpg);
+  font-family: 'Century Gothic',sans-serif;
+  background-size: cover;
+  color:white; 
+}
+.bck1 h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-align: center;
+}
+.bck1 h5{
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  text-align: center;
+}
+.bck1 ul{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  text-align: center;
+}
+.bck2{
+  font-family: 'Century Gothic',sans-serif;
+  color:#29a329;
+}
+.bck2 h1{
+  font-size: 50px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-align: center;
+  
+}
+.bck2 h5{
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.bck2 li{
+  display: inline-block;
+ 
+  margin: 6px;
+  list-style: none;
+}
+.bck2 li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+  border-radius: 15px;
+
+}
+.bck2 li a:hover{
+  color: #29a329;
+}
+.bck3{
+  font-family: 'Century Gothic',sans-serif;
+  background-color: #c2eaba;
+background-image: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);
+
+
+}
+.bck3 h3{
+   font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  text-align: center;
+}
+.bck3 p{
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  text-align: center;
+}
+.bck3 a{
+text-decoration: none;
+color: black;
 }
